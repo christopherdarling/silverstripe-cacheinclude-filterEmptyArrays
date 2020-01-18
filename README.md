@@ -1,0 +1,2 @@
+# silverstripe-cacheinclude-filterEmptyArrays
+ExpressionLanguage function filterEmptyArrays

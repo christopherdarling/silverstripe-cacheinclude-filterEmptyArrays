@@ -1,0 +1,27 @@
+{
+    "name": "christopherdarling/silverstripe-cacheinclude-filteremptyarrays",
+    "description": "ExpressionLanguage function filterEmptyArrays for the CacheInclude module",
+    "type": "silverstripe-vendormodule",
+    "keywords": [
+        "silverstripe",
+        "cacheinclude"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Christopher Darling",
+            "email": "me@christopherdarling.co.uk"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "heyday/silverstripe-cacheinclude": "^5.0",
+        "silverstripe/framework": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "ChristopherDarling\\CacheIncludeFilterEmptyArrays": "src/"
+        }
+    }
+}
