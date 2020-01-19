@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "ChristopherDarling\\CacheIncludeFilterEmptyArrays": "src/"
+            "ChristopherDarling\\CacheIncludeFilterEmptyArrays\\": "src/"
         }
     }
 }
