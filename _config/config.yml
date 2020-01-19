@@ -5,3 +5,8 @@ After: 'cacheinclude/*'
 SilverStripe\Core\Injector\Injector:
   FilterEmptyArraysLanguageProvider:
     class: 'ChristopherDarling\CacheIncludeFilterEmptyArrays\FilterEmptyArraysLanguageProvider'
+  CacheIncludeExpressionLanguage:
+    class: 'Heyday\CacheInclude\ExpressionLanguage'
+    calls:
+      - [ registerProvider, [ %$FilterEmptyArraysLanguageProvider ] ]
+  
