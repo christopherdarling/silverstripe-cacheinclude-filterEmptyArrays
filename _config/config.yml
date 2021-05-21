@@ -8,5 +8,5 @@ SilverStripe\Core\Injector\Injector:
   CacheIncludeExpressionLanguage:
     class: 'Heyday\CacheInclude\ExpressionLanguage'
     calls:
-      - [ registerProvider, [ %$FilterEmptyArraysLanguageProvider ] ]
+      - [ registerProvider, [ '%$FilterEmptyArraysLanguageProvider' ] ]
   
