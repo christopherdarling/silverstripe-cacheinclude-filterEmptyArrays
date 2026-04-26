@@ -16,7 +16,7 @@
     "minimum-stability": "dev",
     "prefer-stable": true,
     "require": {
-        "heyday/silverstripe-cacheinclude": "^5.0",
+        "heyday/silverstripe-cacheinclude": "*",
         "silverstripe/framework": "^5.0 || ^6.0"
     },
     "autoload": {
